@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    background-image: url(https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg);
+}
+
+.chat-box {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #d11b1b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#chat-container {
+    padding: 10px;
+    height: 250px;
+    overflow-y: scroll;
+    color: rgb(12, 236, 79);
+}
+
+#user-input {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin: 0;
+    border: none;
+    border-top: 1px solid #cc2d2d;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: #39f039;
+    text-size-adjust: 1px;
+}
+p{
+    color: #cc2d2d;
+}
+h2{
+    color: rgb(95, 235, 76);
+}
+i{
+    color: rgb(250, 11, 11);
+}
